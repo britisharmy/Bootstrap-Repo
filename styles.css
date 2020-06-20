@@ -1,0 +1,77 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  .mright{
+      margin-right:20px !important;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  body > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .footer {
+      background-color:black !important;
+  }
+  
+  code {
+    font-size: 80%;
+  }
+  
+  .form-control{
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  }
+  .blength{
+      width:200px;
+  }
+  .sblength{
+      margin: 0 auto;
+      width:700px;
+  }
+  .len{
+      width:700px !important;
+  }
+  .bround{
+      -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  }
+  .blink{
+      cursor:pointer;
+  }
+  
+  .paddingup{
+      margin-top:12px !important;
+  }
+  .nfc{
+          -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  }
